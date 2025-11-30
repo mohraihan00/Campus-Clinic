@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Medical White/Green Theme */
+    --background: 0 0% 100%;
+    --foreground: 150 10% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 150 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 10% 15%;
+
+    --primary: 220 65% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 150 65% 55%;
+    --primary-dark: 150 65% 35%;
+
+    --secondary: 150 45% 92%;
+    --secondary-foreground: 150 65% 25%;
+
+    --muted: 150 20% 96%;
+    --muted-foreground: 150 10% 45%;
+
+    --accent: 150 55% 95%;
+    --accent-foreground: 150 65% 35%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 150 15% 88%;
+    --input: 150 15% 88%;
+    --ring: 150 65% 45%;
+
+    --radius: 0.5rem;
+
+    --success: 150 65% 45%;
+    --warning: 38 92% 50%;
+    --info: 150 65% 45%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 150 10% 20%;
+    --sidebar-primary: 150 65% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 150 20% 96%;
+    --sidebar-accent-foreground: 150 65% 35%;
+    --sidebar-border: 150 15% 88%;
+    --sidebar-ring: 150 65% 45%;
+  }
+
+  .dark {
+    --background: 150 15% 10%;
+    --foreground: 150 10% 95%;
+
+    --card: 150 20% 12%;
+    --card-foreground: 150 10% 95%;
+
+    --popover: 150 20% 12%;
+    --popover-foreground: 150 10% 95%;
+
+    --primary: 150 65% 55%;
+    --primary-foreground: 150 15% 10%;
+    --primary-light: 150 65% 65%;
+    --primary-dark: 150 65% 45%;
+
+    --secondary: 150 45% 45%;
+    --secondary-foreground: 150 15% 10%;
+
+    --muted: 150 20% 18%;
+    --muted-foreground: 150 10% 65%;
+
+    --accent: 150 50% 20%;
+    --accent-foreground: 150 60% 90%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 150 15% 22%;
+    --input: 150 15% 22%;
+    --ring: 150 65% 55%;
+
+    --success: 150 65% 45%;
+    --warning: 38 92% 50%;
+    --info: 150 65% 55%;
+
+    --sidebar-background: 150 20% 10%;
+    --sidebar-foreground: 150 10% 95%;
+    --sidebar-primary: 150 65% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 150 15% 15%;
+    --sidebar-accent-foreground: 150 10% 95%;
+    --sidebar-border: 150 15% 15%;
+    --sidebar-ring: 150 65% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-['Inter',_sans-serif];
+  }
+}
