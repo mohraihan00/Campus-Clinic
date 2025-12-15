@@ -1,6 +1,6 @@
 # Campus Clinic
 
-Sistem Antrian dan Reservasi Klinik Kampus berbasis web dengan arsitektur modern yang memisahkan **Backend (Laravel)** dan **Frontend (React)**.
+Sistem Antrian dan Reservasi Klinik Kampus berbasis web dengan arsitektur modern yang memisahkan **Backend (Laravel)** dan **Frontend (React)**. Sistem ini ditujukan sebagai tugas akhir dari mata kuliah Web Framework dari kelompok 1 ganjil.
 
 ## Deskripsi
 
@@ -28,24 +28,6 @@ Campus Clinic adalah aplikasi web untuk mengelola antrian dan reservasi pasien d
 - **State Management**: React Query
 - **HTTP Client**: Axios
 
-## Struktur Folder
-
-```
-campus-clinic/
-├── backend/          # Laravel API
-│   ├── app/
-│   ├── database/
-│   ├── routes/
-│   └── ...
-├── frontend/         # React SPA
-│   ├── src/
-│   │   ├── components/
-│   │   ├── contexts/
-│   │   ├── pages/
-│   │   └── ...
-│   └── ...
-└── README.md
-```
 
 ## Cara Menjalankan
 
@@ -99,16 +81,6 @@ npm run dev
 ```
 Frontend akan berjalan di: `http://localhost:5173`
 
-## Akun Demo
-
-Setelah menjalankan seeder, Anda dapat login dengan akun berikut:
-
-| Role   | Email                    | Password |
-|--------|--------------------------|----------|
-| Admin  | admin@campusclinic.com   | password |
-| Dokter | jane@campusclinic.com    | password |
-| Dokter | ahmad@campusclinic.com   | password |
-
 ## API Endpoints
 
 Base URL: `http://localhost:8000/api`
@@ -133,6 +105,3 @@ npm run build
 ```
 Hasil build akan berada di folder `frontend/dist/`
 
-## Lisensi
-
-Project ini dibuat untuk keperluan tugas kuliah.
